@@ -1,0 +1,33 @@
+C:\Users\dkwlw\AppData\Local\Programs\Python\Python39\python.exe C:/Users/dkwlw/PycharmProjects/study/2021-11-18/heapD.py
+[[], [(2, 2), (6, 3)], [(4, 4), (3, 1)], [(4, 2)], [(1, 4), (5, 1)], [(6, 1)], [(2, 5), (5, 1)]]
+h> [(0, 1)]
+distance = [1000000000.0, 0, 1000000000.0, 1000000000.0, 1000000000.0, 1000000000.0, 1000000000.0]
+dist> 0 now> 1
+visited> [False, True, False, False, False, False, False]
+************
+h> [(2, 2), (3, 6)]
+distance = [1000000000.0, 0, 2, 1000000000.0, 1000000000.0, 1000000000.0, 3]
+dist> 2 now> 2
+visited> [False, True, True, False, False, False, False]
+************
+h> [(3, 3), (6, 4), (3, 6)]
+distance = [1000000000.0, 0, 2, 3, 6, 1000000000.0, 3]
+dist> 3 now> 3
+visited> [False, True, True, True, False, False, False]
+************
+h> [(3, 6), (6, 4), (5, 4)]
+distance = [1000000000.0, 0, 2, 3, 5, 1000000000.0, 3]
+dist> 3 now> 6
+visited> [False, True, True, True, False, False, True]
+************
+h> [(4, 5), (6, 4), (5, 4)]
+distance = [1000000000.0, 0, 2, 3, 5, 4, 3]
+dist> 4 now> 5
+visited> [False, True, True, True, False, True, True]
+************
+h> [(5, 4), (6, 4)]
+distance = [1000000000.0, 0, 2, 3, 5, 4, 3]
+dist> 5 now> 4
+visited> [False, True, True, True, True, True, True]
+************
+h> [(6, 4)]
